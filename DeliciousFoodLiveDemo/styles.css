@@ -1,6 +1,6 @@
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
@@ -13,13 +13,16 @@ body {
 
 header {
   background-color: #ff6347;
-  color: rgb(255, 255, 255);
+  color: white;
   text-align: center;
   padding: 20px 0px;
 }
 
 main {
   padding: 20px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
 }
 
 .card-container {
@@ -56,4 +59,10 @@ footer {
   text-align: center;
   padding: 20px 0px;
   color: white;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
